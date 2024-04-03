@@ -67,6 +67,7 @@ CREATE TABLE Account (
     date_opened DATE NOT NULL,
     date_closed DATE,
     status VARCHAR(20) NOT NULL
+    CHECK (balance >= minimum_balance)
 );
 
 -- Loan
