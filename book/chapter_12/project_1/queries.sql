@@ -30,7 +30,7 @@ CREATE TABLE Customer (
     city VARCHAR(20) NOT NULL,
     street VARCHAR(30) NOT NULL,
     phone_number VARCHAR(20) NOT NULL,
-    email VARCHAR(50) NOT NULL,
+    email VARCHAR(50) NOT NULL UNIQUE,
     registration_date DATE NOT NULL DEFAULT CURRENT_DATE
 );
 
@@ -61,7 +61,7 @@ CREATE TABLE Account (
     customer_id INT NOT NULL REFERENCES Customer(id),
     branch_id INT NOT NULL REFERENCES Branch(id),
     type INT NOT NULL REFERENCES AccountType(id),
-    number VARCHAR(50) NOT NULL,
+    number VARCHAR(50) NOT NULL UNIQUE,
     balance DECIMAL(10,2) NOT NULL,
     minimum_balance DECIMAL(10,2) NOT NULL DEFAULT 0,
     date_opened DATE NOT NULL,
