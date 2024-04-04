@@ -24,14 +24,15 @@ CREATE TABLE CustomerType (
 -- Customer
 CREATE TABLE Customer (
     id SERIAL PRIMARY KEY,
-    type INT NOT NULL REFERENCES CustomerType(id),
+    customer_type_id INT NOT NULL REFERENCES CustomerType(id),
     name VARCHAR(100) NOT NULL,
-    country VARCHAR(2) NOT NULL,
+    country country_code NOT NULL,
     city VARCHAR(20) NOT NULL,
     street VARCHAR(30) NOT NULL,
     phone_number VARCHAR(20) NOT NULL,
     email VARCHAR(50) NOT NULL UNIQUE,
-    registration_date DATE NOT NULL DEFAULT CURRENT_DATE
+    registration_date DATE NOT NULL DEFAULT CURRENT_DATE,
+    status INT NOT NUll REFERENCES CustomerStatusType(id)
 );
 
 -- TransactionType
@@ -45,6 +46,27 @@ CREATE TABLE TransactionType (
 CREATE TABLE AccountType (
     id SERIAL PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
+    description VARCHAR(50) NOT NULL
+);
+
+-- AccountStatusType
+CREATE TABLE AccountStatusType (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(10) NOT NULL,
+    description VARCHAR(50) NOT NULL
+);
+
+-- AccountStatusType
+CREATE TABLE CustomerStatusType (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(10) NOT NULL,
+    description VARCHAR(50) NOT NULL
+);
+
+-- AccountStatusType
+CREATE TABLE LoanStatusType (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(10) NOT NULL,
     description VARCHAR(50) NOT NULL
 );
 
@@ -66,7 +88,7 @@ CREATE TABLE Account (
     minimum_balance DECIMAL(10,2) NOT NULL DEFAULT 0,
     date_opened DATE NOT NULL,
     date_closed DATE,
-    status VARCHAR(20) NOT NULL
+    status INT NOT NULL REFERENCES AccountStatusType(id)
     CHECK (balance >= minimum_balance)
 );
 
@@ -74,13 +96,13 @@ CREATE TABLE Account (
 CREATE TABLE Loan (
     id SERIAL PRIMARY KEY,
     customer_id INT NOT NULL REFERENCES Customer(id),
-    type INT NOT NULL REFERENCES LoanType(id),
+    load_type_id INT NOT NULL REFERENCES LoanType(id),
     amount DECIMAL(10,2) NOT NULL,
     interest_rate DECIMAL(10,2) NOT NULL,
     term INT NOT NULL,
     start_date DATE NOT NULL,
     end_date DATE NOT NULL,
-    status VARCHAR(20) NOT NULL
+    loan_status_type INT NOT NULL REFERENCES LoanStatusType(id)
 );
 
 -- LoanPayment
@@ -117,7 +139,10 @@ CREATE TABLE CardType (
 CREATE TABLE Card (
     id SERIAL PRIMARY KEY,
     account_id INT NOT NULL REFERENCES Account(id),
-    type INT NOT NULL REFERENCES CardType(id),
+    customer_id INT NOT NULL REFERENCES Customer(id),
+    card_type_id INT NOT NULL REFERENCES CardType(id),
     monthly_fee DECIMAL(10,2) NOT NULL,
-    interest_rate DECIMAL(5,2) NOT NULL
+    interest_rate DECIMAL(5,2) NOT NULL,
+    expiration_date DATE NOT NULL,
+    issuance_date DATE NOT NULL
 );
