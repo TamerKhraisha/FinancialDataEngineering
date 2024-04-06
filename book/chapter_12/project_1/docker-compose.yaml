@@ -7,16 +7,17 @@ services:
     ports:
       - "5432:5432"
     environment:
-      POSTGRES_USER: pgadmin_user
-      POSTGRES_PASSWORD: pgadmin_password
+      POSTGRES_USER: postgres_user
+      POSTGRES_PASSWORD: postgres_password
+      POSTGRES_DB: bank_account
   pgadmin:
-    image: dpage/pgadmin4
+    image: dpage/pgadmin4:latest
     container_name: local_pgadmin
     restart: always
     ports:
       - "8080:80"
     environment:
-      PGADMIN_DEFAULT_EMAIL: pgadmin@example.com
-      PGADMIN_DEFAULT_PASSWORD: pgadmin_password
+      PGADMIN_DEFAULT_EMAIL: project1@email.com
+      PGADMIN_DEFAULT_PASSWORD: 12345
     depends_on:
       - postgres
