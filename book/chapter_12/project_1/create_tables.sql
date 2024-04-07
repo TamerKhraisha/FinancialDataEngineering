@@ -1,20 +1,20 @@
 -- CustomerStatusType
 CREATE TABLE CustomerStatusType (
-    id SERIAL PRIMARY KEY,
+    id INT PRIMARY KEY,
     name VARCHAR(10) NOT NULL,
     description VARCHAR(50) NOT NULL
 );
 
 -- AccountStatusType
 CREATE TABLE LoanStatusType (
-    id SERIAL PRIMARY KEY,
+    id INT PRIMARY KEY,
     name VARCHAR(10) NOT NULL,
     description VARCHAR(50) NOT NULL
 );
 
 -- Branch
 CREATE TABLE Branch (
-    id SERIAL PRIMARY KEY,
+    id INT PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
     address VARCHAR(100) NOT NULL,
     phone_number VARCHAR(20) NOT NULL
@@ -30,42 +30,42 @@ CREATE TABLE Employee (
 
 -- CustomerType
 CREATE TABLE CustomerType (
-    id SERIAL PRIMARY KEY,
+    id INT PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
     description VARCHAR(50) NOT NULL
 );
 
 -- TransactionType
 CREATE TABLE TransactionType (
-    id SERIAL PRIMARY KEY,
+    id INT PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
     description VARCHAR(50) NOT NULL
 );
 
 -- AccountType
 CREATE TABLE AccountType (
-    id SERIAL PRIMARY KEY,
+    id INT PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
     description VARCHAR(50) NOT NULL
 );
 
 -- AccountStatusType
 CREATE TABLE AccountStatusType (
-    id SERIAL PRIMARY KEY,
+    id INT PRIMARY KEY,
     name VARCHAR(10) NOT NULL,
     description VARCHAR(50) NOT NULL
 );
 
 -- CardType
 CREATE TABLE CardType (
-    id SERIAL PRIMARY KEY,
+    id INT PRIMARY KEY,
     name VARCHAR(30) NOT NULL,
     description VARCHAR(100) NOT NULL
 );
 
 -- LoanType
 CREATE TABLE LoanType (
-    id SERIAL PRIMARY KEY,
+    id INT PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
     description VARCHAR(50) NOT NULL
 );
@@ -90,6 +90,7 @@ CREATE TABLE Account (
     customer_id INT NOT NULL REFERENCES Customer(id),
     branch_id INT NOT NULL REFERENCES Branch(id),
     type INT NOT NULL REFERENCES AccountType(id),
+    currency VARCHAR NOT NULL,
     number VARCHAR(50) NOT NULL UNIQUE,
     balance DECIMAL(10,2) NOT NULL,
     minimum_balance DECIMAL(10,2) NOT NULL DEFAULT 0,
@@ -116,6 +117,7 @@ CREATE TABLE Loan (
 CREATE TABLE LoanPayment (
     id SERIAL PRIMARY KEY,
     loan_id INT NOT NULL REFERENCES Loan(id),
+    transaction_id INT NOT NULL REFERENCES Transaction(id),
     payment_amount DECIMAL(10,2) NOT NULL,
     scheduled_payment_date DATE NOT NULL,
     payment_date DATE NOT NULL,
@@ -128,8 +130,9 @@ CREATE TABLE LoanPayment (
 CREATE TABLE Transaction (
     id SERIAL PRIMARY KEY,
     account_id INT NOT NULL REFERENCES Account(id),
-    employee_id INT NOT NULL REFERENCES Employee(id),
+    employee_id INT REFERENCES Employee(id),
     type INT NOT NULL REFERENCES TransactionType(id),
+    currency VARCHAR NOT NULL,
     date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     amount DECIMAL(10,2) NOT NULL
 );
