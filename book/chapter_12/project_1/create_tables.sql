@@ -22,7 +22,7 @@ CREATE TABLE Branch (
 
 -- Employee
 CREATE TABLE Employee (
-    id SERIAL PRIMARY KEY,
+    id INT PRIMARY KEY,
     branch_id INT NOT NULL REFERENCES Branch(id),
     name VARCHAR(50) NOT NULL,
     position VARCHAR(20) NOT NULL
@@ -106,6 +106,7 @@ CREATE TABLE Loan (
     customer_id INT NOT NULL REFERENCES Customer(id),
     load_type_id INT NOT NULL REFERENCES LoanType(id),
     amount DECIMAL(10,2) NOT NULL,
+    currency VARCHAR,
     interest_rate DECIMAL(10,2) NOT NULL,
     term INT NOT NULL,
     start_date DATE NOT NULL,
