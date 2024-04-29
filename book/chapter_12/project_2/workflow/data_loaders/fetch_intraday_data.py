@@ -17,9 +17,17 @@ def load_data_from_api(*args, **kwargs):
     Loads Intraday Time Series data
     """
     api_key = os.environ['ALPHAVINTAGE_API_KEY']
-    url = f'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=1min&outputsize=full&datatype=csv&adjusted=true&apikey={api_key}'
-    request_result = requests.get(url)
-    output_df = pd.read_csv(io.StringIO(request_result.text), sep=',')
+
+    output_df = pd.DataFrame()
+
+    for symbol in ['IBM', 'MSFT', 'GOOG']:
+
+        url = f'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol={symbol}&interval=1min&outputsize=full&datatype=csv&adjusted=true&apikey={api_key}'
+        request_result = requests.get(url)
+        df = pd.read_csv(io.StringIO(request_result.text), sep=',')
+        df['symbol'] = symbol
+        output_df = pd.concat([output_df, df], axis=0)
+
     output_df['ingestion_timestamp']= datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     output_df = output_df.rename(columns={'timestamp': 'price_timestamp', 'open': 'open_price', 'close': 'close_price'})
     return output_df
