@@ -21,14 +21,12 @@ services:
     depends_on:
       - postgres
     command: mage start magic
-    restart: on-failure:5
+    restart: on-failure
 
   postgres:
     image: postgres:latest
     restart: on-failure
     container_name: postgres-magic
-    build:
-      context: ./db
     env_file:
       - .env
     ports:

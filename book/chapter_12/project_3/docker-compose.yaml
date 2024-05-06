@@ -1,0 +1,60 @@
+version: '3.8'
+
+services:
+  conductor:
+    image: conductoross/conductor-standalone:3.15.0
+    ports:
+      - "8080:8080"
+      - "5000:5000"
+    init: true
+    networks:
+      - conductor-network
+  postgres:
+    image: postgres
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    networks:
+      - conductor-network
+
+  jupyterlab:
+    image: jupyter/base-notebook:latest
+    working_dir: /project
+    command: ["sh", "-c", "python3 -m pip install conductor-python psycopg2-binary && start-notebook.sh --NotebookApp.token=''"]
+    restart: "no"
+    volumes:
+      - ./workflow:/project/workflow
+      - ./database:/project/database
+    ports:
+      - "8888:8888"
+    environment:
+      CONDUCTOR_SERVER_URL: "http://conductor:8080/api"
+      POSTGRES_HOST: ${POSTGRES_HOST}
+      POSTGRES_PORT: ${POSTGRES_PORT}
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    env_file:
+      - .env
+    networks:
+      - conductor-network
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin
+    restart: always
+    ports:
+      - "8081:80"
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}
+    networks:
+      - conductor-network
+
+networks:
+  conductor-network:
+    driver: bridge

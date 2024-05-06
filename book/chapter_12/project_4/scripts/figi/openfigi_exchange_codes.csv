@@ -1,0 +1,455 @@
+as of 2024,,,,,,
+Local Info,,,,,,
+Exchange Code,OpenFIGI Exchange Name,Composite Code,Composite Name,ISO Country Code (where applicable),Is this a True Composite?,Full Exchange Name
+AC,Buenos Cont ,AR,Argentina     ,AR,Yes,Buenos Aires Continuous
+AE,Buenos Elec ,AR,Argentina     ,AR,Yes,Argentina's Mercado Abierto Electronico
+AF,BYMA Floor  ,AR,Argentina     ,AR,Yes,the Bolsa de Comercio de Buenos Aires
+AM,Mendoza  SE ,AR,Argentina     ,AR,Yes,Mendoza Stock Exchange
+AS,Buenos Sinac,AR,Argentina     ,AR,Yes,Buenos Aires Sinac
+AH,Cboe Austral,AU,Australia     ,AU,Yes,Cboe Australia
+AN,ASX         ,AU,Australia     ,AU,Yes,the Australian Stock Exchange
+AO,NSX         ,AU,Australia     ,AU,Yes,NSX Australia
+AQ,ASXPureMatch,AU,Australia     ,AU,Yes,ASX PureMatch
+AT,ASE         ,AU,Australia     ,AU,Yes,Australian Security Exchange
+PF,Sydney Stock,AU,Australia     ,AU,Yes,Sydney Stock Exchange
+SI,SIM VSE     ,AU,Australia     ,AU,Yes,SIM Venture Securities Exchange
+BE,Bovespa Elec,BZ,B3 Composite  ,BR,Yes,the Bovespa Outcry Market
+BL,Bovespa Flr ,BZ,B3 Composite  ,BR,Yes,the Bovespa Outcry Market
+BN,B3 Night    ,BZ,B3 Composite  ,BR,Yes,the Sao Paolo After Market
+BO,B3 Soma     ,BZ,B3 Composite  ,BR,Yes,the SOMA Market
+BR,Rio De Janer,BZ,B3 Composite  ,BR,Yes,the Rio de Janeiro Stock Exchange
+BS,B3 Day      ,BZ,B3 Composite  ,BR,Yes,the Sao Paulo Stock Exchange
+BV,Bovespa Out ,BZ,B3 Composite  ,BR,Yes,the Bovespa Outcry Market
+CL,Medellin    ,CB,Colombia      ,CO,Yes,the Medellin Stock Exchange
+CO,Occidente   ,CB,Colombia      ,CO,Yes,the Occidente Stock Exchange
+CX,Bolsa Colomb,CB,Colombia      ,CO,Yes,Bolsa de Valores de Colombia
+CG,Shanghai    ,CH,China         ,CN,Yes,the Shanghai Stock Exchange
+CS,Shenzhen    ,CH,China         ,CN,Yes,the Shenzhen Stock Exchange
+JC,BeijingSE   ,CH,China         ,CN,Yes,Beijing Stock Exchange
+QN,NEEQ        ,CH,China         ,CN,Yes,National Equities Exchange and Quotations
+CC,Sant. Comerc,CI,Chile         ,CL,Yes,Santiago Comercio
+CE,Sant. Elec  ,CI,Chile         ,CL,Yes,Santiago Electronic
+CA,Alberta     ,CN,Canada        ,CA,Yes,the Alberta Stock Exchange
+CF,Canadian Sec,CN,Canada        ,CA,Yes,the Canadian Securities Exchange
+CJ,Pure Trading,CN,Canada        ,CA,Yes,the Pure Trading Exchange
+CM,Montreal    ,CN,Canada        ,CA,Yes,the Montreal Stock Exchange
+CQ,Dealing Net ,CN,Canada        ,CA,Yes,the Canadian Dealing Network
+CT,Toronto     ,CN,Canada        ,CA,Yes,the Toronto Stock Exchange
+CV,Venture     ,CN,Canada        ,CA,Yes,the Canadian Venture Exchange
+CW,Winnipeg    ,CN,Canada        ,CA,Yes,the Winnipeg Stock Exchange
+DG,Lnyx ATS    ,CN,Canada        ,CA,Yes,Lynx ATS
+DJ,NASDAQ CXD T,CN,Canada        ,CA,Yes,NASDAQ CXD Toronto
+DK,NASDAQ CXD V,CN,Canada        ,CA,Yes,NASDAQ CXD Ventures
+DL,NSDQ CX CSE ,CN,Canada        ,CA,Yes,NASDAQ CX CSE
+DM,NSDQ CX2 CSE,CN,Canada        ,CA,Yes,NASDAQ CX2 CSE
+DN,NSDQ CXD CSE,CN,Canada        ,CA,Yes,NASDAQ CXD CSE
+DS,CX2 Cad Vntr,CN,Canada        ,CA,Yes,CX2 Canada Venture
+DT,CX2 Cd Trnto,CN,Canada        ,CA,Yes,CX2 Canada Toronto
+DV,ChiX Venture,CN,Canada        ,CA,Yes,Chi-X Venture
+QF,NEO-L Lit   ,CN,Canada        ,CA,Yes,NEO Exchange NEO-L
+QG,NEO-D Dark  ,CN,Canada        ,CA,Yes,NEO Exchange NEO-D
+QH,NEO-N Neo   ,CN,Canada        ,CA,Yes,NEO Exchange NEO-N
+TA,AlphaToronto,CN,Canada        ,CA,Yes,the AlphaToronto Exchange
+TG,Omega       ,CN,Canada        ,CA,Yes,the Omega Exchange
+TJ,TMX Select  ,CN,Canada        ,CA,Yes,TMX Select
+TK,Liquidnet   ,CN,Canada        ,CA,Yes,Liquidnet
+TN,AlphaVenture,CN,Canada        ,CA,Yes,the AlphaVenture Exchange
+TO,TriAct CSE  ,CN,Canada        ,CA,Yes,TriAct CSE
+TR,TriAct Trnto,CN,Canada        ,CA,Yes,the TriAct MATCHNow Toronto Exchange
+TV,TriAct Vntre,CN,Canada        ,CA,Yes,the TriAct MATCHNow Ventures Exchange
+TW,Instinet Can,CN,Canada        ,CA,Yes,Instinet Canada Cross
+TX,ChiX Toronto,CN,Canada        ,CA,Yes,Chi-X Toronto
+TY,Sigma X ATS ,CN,Canada        ,CA,Yes,Sigma X ATS
+HX,Alpha-X,CN,Canada        ,CA,Yes,Alpha-X
+HD,Alpha Dark,CN,Canada        ,ca,Yes,Alpha Dark
+CD,Prague-SPAD ,CP,Czech Republic,CZ,Yes,the SPAD Exchange
+CK,Prague SE   ,CP,Czech Republic,CZ,Yes,the Prague Stock Exchange
+KL,Prague-Block,CP,Czech Republic,CZ,Yes,the Prague-Block Stock Exchange
+RC,Czech  OTC  ,CP,Czech Republic,CZ,Yes,CzechRepublic-RMSystems
+VA,Varazdin    ,CZ,Croatia       ,HR,Yes,the Varazdin Stock Exchange
+ZA,Zagreb      ,CZ,Croatia       ,HR,Yes,the Zagreb Exchange
+EG,Guayaquil   ,ED,Ecuador       ,EC,Yes,the Guayaquil Stock Exchange
+EQ,Quito       ,ED,Ecuador       ,EC,Yes,the Quito Stock Exchange
+EA,Alexandria  ,EY,Egypt(EGX)    ,EG,Yes,the Alexandria Stock Exchange
+EC,EGX         ,EY,Egypt(EGX)    ,EG,Yes,the Egypt (EGX)
+EI,NILEX       ,EY,Egypt(EGX)    ,EG,Yes,The Nile Stock Exchange
+GB,Berlin      ,GR,Germany       ,DE,Yes,the Berlin Stock Exchange
+GC,Bremen      ,GR,Germany       ,DE,Yes,the Bremen Stock Exchange
+GD,Dusseldorf  ,GR,Germany       ,DE,Yes,the Dusseldorf Stock Exchange
+GE,Xtra EU Strs,GR,Germany       ,DE,Yes,Xetra EU Stars
+GF,Frankfurt   ,GR,Germany       ,DE,Yes,the Frankfurt Stock Exchange
+GH,Hamburg     ,GR,Germany       ,DE,Yes,the Hamburg Stock Exchange
+GI,Hannover    ,GR,Germany       ,DE,Yes,the Hannover Stock Exchange
+GM,Munich      ,GR,Germany       ,DE,Yes,the Munich Stock Exchange
+GQ,Xetra Stars ,GR,Germany       ,DE,Yes,Xetra Stars
+GS,Stuttgart   ,GR,Germany       ,DE,Yes,the Stuttgart Stock Exchange
+GT,Xetra ETF   ,GR,Germany       ,DE,Yes,the Xetra ETF Exchange
+GW,Stutgt Wrnts,GR,Germany       ,DE,Yes,Stuttgart Warrants
+GY,Xetra       ,GR,Germany       ,DE,Yes,the Xetra Stock Exchange
+LA,LSXExchange ,GR,Germany       ,DE,Yes,LSXExchange
+LU,LSX LSSI    ,GR,Germany       ,DE,Yes,LSX LSSI
+IB,BSE India   ,IN,India         ,IN,Yes,BSE India
+IG,MSEI        ,IN,India         ,IN,Yes,Metropolitan Stock Exchange of India Limited
+IH,Delhi Stk Ex,IN,India         ,IN,Yes,Delhi Stock Exchange
+IS,Natl India  ,IN,India         ,IN,Yes,the National Stock Exchange of India
+JB,Brokers Brkr,JP,Japan         ,JP,Yes,the Brokers Broker Exchange
+JD,Kabu.com    ,JP,Japan         ,JP,Yes,the Kabu.com Stock Exchange
+JE,Japannext   ,JP,Japan         ,JP,Yes,Japannext
+JF,Fukuoka     ,JP,Japan         ,JP,Yes,the Fukuoka Stock Exchange
+JG,Tokyo AIM   ,JP,Japan         ,JP,Yes,the Tokyo AIM Stock Exchange
+JI,Cboe Japan  ,JP,Japan         ,JP,Yes,Cboe Japan Market
+JJ,JSDA OffExch,JP,Japan         ,JP,Yes,the JSDA Off-Exchange
+JK,Kyoto       ,JP,Japan         ,JP,Yes,the Kyoto Stock Exchange
+JM,Optimark Jpn,JP,Japan         ,JP,Yes,Optimark Japan
+JN,Nagoya      ,JP,Japan         ,JP,Yes,the Nagoya Stock Exchange
+JO,Osaka       ,JP,Japan         ,JP,Yes,the Osaka Stock Exchange
+JQ,JASDAQ      ,JP,Japan         ,JP,Yes,the Jasdaq Stock Market
+JS,Sapporo     ,JP,Japan         ,JP,Yes,the Sapporo Stock Exchange
+JT,Tokyo       ,JP,Japan         ,JP,Yes,the Tokyo Stock Exchange
+JU,JapannextXMk,JP,Japan         ,JP,Yes,Japannext X-Market
+JV,ODX         ,JP,Japan         ,JP,Yes,Osaka Digital Exchange
+JW,JapannextUMk,JP,Japan         ,JP,Yes,Japannext U-Market
+JX,Hercules    ,JP,Japan         ,JP,Yes,Nippon New Market Hercules
+KE,Konex       ,KS,South Korea   ,KR,Yes,Konex Exchange
+KP,Korea SE    ,KS,South Korea   ,KR,Yes,the Korea Stock Exchange
+KQ,KOSDAQ      ,KS,South Korea   ,KR,Yes,the KOSDAQ Exchange
+LF,Riga Fixed  ,LR,Latvia        ,LV,Yes,the Riga Fixed Stock Exchange
+LG,Riga        ,LR,Latvia        ,LV,Yes,the Riga Exchange
+LV,Riga Variab ,LR,Latvia        ,LV,Yes,the Riga Variable Exchange
+MF,BMV Mexico  ,MM,Mexico        ,MX,Yes,Bolsa Mexican de Valores
+MU,BIVA        ,MM,Mexico        ,MX,Yes,BIVA
+PK,Pakistan    ,PA,Pakistan      ,PK,Yes,the Pakistan Stock Exchange
+RN,MICEX NDM   ,RM,MICEX         ,RU,Yes,Moscow Interbank Currency Exchange Nego Mode Deals
+RP,MICEX Repo  ,RM,MICEX         ,RU,Yes,Moscow Interbank Currency Exchange Repo Market
+RX,MICEX Main  ,RM,MICEX         ,RU,Yes,Moscow Interbank Currency Exchange Main Market
+RE,Bucharest   ,RO,Romania       ,RO,Yes,the Bucharest Exchange
+RQ,RASDAQ      ,RO,Romania       ,RO,Yes,the RASDAQ Market
+RZ,SIBEX       ,RO,Romania       ,RO,Yes,SIBEX
+RG,SPB         ,RU,Russia        ,RU,Yes,SPB
+RR,MOEX        ,RU,Russia        ,RU,Yes,MOEX
+RS,RTS Standard,RU,Russia        ,RU,Yes,RTS Standard
+RT,NP RTS      ,RU,Russia        ,RU,Yes,NP RTS
+SA,Valencia    ,SM,Spain         ,ES,Yes,the Valencia Stock Exchange
+SB,Barcelona   ,SM,Spain         ,ES,Yes,the Barcelona Stock Exchange
+SN,BME Outcry  ,SM,Spain         ,ES,Yes,BME Electronic Outcry
+SO,Bilbao      ,SM,Spain         ,ES,Yes,the Bilbao Stock Exchange
+SQ,Soc.Bol SIBE,SM,Spain         ,ES,Yes,Sociedad de Bolsas
+ST,ContinuousNM,SM,Spain         ,ES,Yes,Continuous NM
+BW,BX Worldcaps,SW,Switzerland   ,CH,Yes,BX Worldcaps
+SC,Swiss Contrb,SW,Switzerland   ,CH,Yes,Euro Contributor
+SE,SIX Swiss Ex,SW,Switzerland   ,CH,Yes,the SIX Swiss Exchange
+SR,Berne       ,SW,Switzerland   ,CH,Yes,the Bern Stock Exchange
+SX,SIX Swiss-SP,SW,Switzerland   ,CH,Yes,SIX Swiss Exch-Structured Prod
+XK,OTC-X BEKB  ,SW,Switzerland   ,CH,Yes,OTC-X Bern KantonalBank
+DB,DFM         ,UH,UAE           ,AE,Yes,the Dubai Financial Market Exchange
+DH,Abu Dhabi   ,UH,UAE           ,AE,Yes,the Abu Dhabi Stock Exchange
+PQ,OTC Markets ,US,United States ,US,Yes,NQB Pink Sheets
+UA,NYSEAmerican,US,United States ,US,Yes,NYSE American
+UB,NSDQ BX     ,US,United States ,US,Yes,the Nasdaq OMX BX Exchange
+UC,NYSENational,US,United States ,US,Yes,NYSE National
+UD,FINRA ADF   ,US,United States ,US,Yes,FINRA ADF
+UE,NASD Internl,US,United States ,US,Yes,Nasdaq International
+UF,Cboe BZX    ,US,United States ,US,Yes,Cboe BZX Exchange (Cboe BZX)
+UI,Island      ,US,United States ,US,Yes,Island
+UJ,Trad Rpt Fac,US,United States ,US,Yes,the Trade Reporting Facility LLC
+UL,ISE         ,US,United States ,US,Yes,the International Securities Exchange
+UM,NYSE Chicago,US,United States ,US,Yes,NYSE Chicago
+UN,New York    ,US,United States ,US,Yes,the New York Stock Exchange
+UO,CBSX        ,US,United States ,US,Yes,the CBOE Stock Exchange
+UP,NYSE Arca   ,US,United States ,US,Yes,the NYSE Arca Exchange
+UQ,NASDAQ GM   ,US,United States ,US,Yes,the Nasdaq Global Market
+UR,NASDAQ CM   ,US,United States ,US,Yes,the Nasdaq Capital Market
+UT,NASDAQ iM   ,US,United States ,US,Yes,the NASDAQ InterMarket
+UU,OTC BB      ,US,United States ,US,Yes,the OTC Bulletin Board
+UV,OTC US      ,US,United States ,US,Yes,OTC US Market
+UW,NASDAQ GS   ,US,United States ,US,Yes,the Nasdaq Global Select Market
+UX,NSDQ OMX PSX,US,United States ,US,Yes,the NASDAQ OMX PSX Exchange
+VF,Investors Ex,US,United States ,US,Yes,Investors Exchange
+VG,Members Exch,US,United States ,US,Yes,Members Exchange
+VJ,EDGA        ,US,United States ,US,Yes,the EDGA Stock Exchange
+VK,EDGX        ,US,United States ,US,Yes,the EDGX Stock Exchange
+VL,Long Term SE,US,United States ,US,Yes,Long Term SE
+VP,MIAX Pearl  ,US,United States ,US,Yes,MIAX Pearl
+VY,Cboe BYX    ,US,United States ,US,Yes,Cboe BYX Exchange (Cboe BYX)
+VE,Electronica ,VC,Venezuela     ,VE,Yes,the Bovespa Outcry Market
+VS,Caracas     ,VC,Venezuela     ,VE,Yes,the Caracas Stock Exchange
+VH,Hanoi       ,VN,Vietnam       ,VN,Yes,the Hanoi Exchange
+VM,Ho Chi Minh ,VN,Vietnam       ,VN,Yes,Ho Chi Minh
+VU,Hanoi UPCoM ,VN,Vietnam       ,VN,Yes,the Hanoi UPCoM Stock Exchange
+B1,BMTF        ,EO,OTC Composite ,,Yes,Bloomberg MTF
+E1,EURO OTC    ,EO,OTC Composite ,,Yes,the Euro OTC
+X1,TradeEchoAPA,EO,OTC Composite ,,Yes,TradEcho APA EU
+X2,Cboe APA EU ,EO,OTC Composite ,,Yes,CBOE APA
+XA,CEESEG OTC  ,EO,OTC Composite ,,Yes,CEESEG OTC and LJSE Block Trades
+XB,Boat        ,EO,OTC Composite ,,Yes,the BOAT Exchange
+XC,Chi-X OTC   ,EO,OTC Composite ,,Yes,the Chi-X OTC
+XD,Deutsche OTC,EO,OTC Composite ,,Yes,the Deutsche Boerse OTC
+XE,Euronext OTC,EO,OTC Composite ,,Yes,the Euronext OTC
+XF,Dblin SE OTC,EO,OTC Composite ,,Yes,the Dublin SE OTC
+XG,NGM OTC     ,EO,OTC Composite ,,Yes,the Nordic Growth Market OTC
+XH,Budapest OTC,EO,OTC Composite ,,Yes,the Budapest SE OTC
+XI,BorsaItalOTC,EO,OTC Composite ,,Yes,the Borsa Italia SE OTC
+XJ,Ljub SE OTC ,EO,OTC Composite ,,Yes,the Ljubljana SE OTC
+XL,Lndon SE OTC,EO,OTC Composite ,,Yes,the London SE OTC
+XM,Euronext Blk,EO,OTC Composite ,,Yes,Euronext Block MTF
+XN,Oslo OTC    ,EO,OTC Composite ,,Yes,the Oslo OTC
+XO,OMX OTC     ,EO,OTC Composite ,,Yes,the OMX OTC
+XP,NEX Exch OTC,EO,OTC Composite ,,Yes,NEX Exchange OTC
+XQ,BMF APA     ,EO,OTC Composite ,,Yes,BME
+XR,Reuters OTC ,EO,OTC Composite ,,Yes,the Reuters OTC
+XS,Stuttgrt OTC,EO,OTC Composite ,,Yes,the Stuttgart OTC
+XT,Athens OTC  ,EO,OTC Composite ,,Yes,the Athens OTC Stock Exchange
+XU,Bulgaria OTC,EO,OTC Composite ,,Yes,Bulgaria Stock Exchange OTC
+XV,CboeBXTR APA,EO,OTC Composite ,,Yes,Cboe BXTR Trade Reporting Services
+XW,SIXOff-Exch ,EO,OTC Composite ,,Yes,the SIX Off-Exchange
+XX,TRAXAPADATA ,EO,OTC Composite ,,Yes,Trax APA
+XY,Burgundy OTC,EO,OTC Composite ,,Yes,Burgundy OTC
+XZ,TradewebAPA ,EO,OTC Composite ,,Yes,Tradeweb APA
+Z1,AIAF        ,Z1,AIAF          , ,No,AIAF Exchange
+AL,Albania     ,AL,Albania       ,AL,No,Albania
+AG,AlgeriaStExc,AG,Algeria       ,DZ,No,the Algerian Stock Exchange
+S2,AMP(UBS MTF),S2,AMP(UBS MTF)  ,MTF,No,AMP(UBS MTF)
+AD,Andorra     ,AD,Andorra       ,AD,No,Andorra
+AX,AngolanStExc,AX,Angola        ,AO,No,the Angolan Stock Exchange
+AI,Anguilla    ,AI,Anguilla      ,AI,No,Anguilla
+AW,ARTEX MTF,FA,FineArt,MTF,No,ArtEx MTF
+PZ,Aquis AQSE  ,PZ,AQSE          , ,No,Aquis Stock Exchange AQSE
+QE,Aquis - EU  ,QE,Aquis Exchange, ,No,Aquis Exchange - EU
+QX,Aquis Exchg ,QX,Aquis Exchange, ,No,Aquis Exchange
+AY,NSDQ OMX Arm,AY,Armenia       ,AM,No,the NASDAQ OMX Armenia Stock Exchange
+A0,AsstMtch MTF,A0,AssetMatch MTF,MTF,No,Asset Match MTF
+AV,Vienna      ,AV,Austria       ,AT,No,the Vienna Stock Exchange
+AZ,Baku SE     ,AZ,Azerbaijan    ,AZ,No,the Baku Stock Exchange
+BM,Bahamas     ,BM,Bahamas       ,BS,No,Bahamas
+BI,Bahrain Brse,BI,Bahrain       ,BH,No,the Manama Stock Exchange
+BD,Dhaka       ,BD,Bangladesh    ,BD,No,the Dhaka Stock Exchange
+C3,CSE         ,BD,Bangladesh    ,BD,No,Chittagong Stock Exchange Limited
+BA,Bridgetown  ,BA,Barbados      ,BB,No,the Bridgetown Stock Exchange
+EB,Cboe BXE    ,EB,BATS Europe   ,MTF,No,Cboe BXE Europe Equities
+RB,Belarus     ,RB,Belarus       ,BY,No,Belarus
+BB,EN Brussels ,BB,Belgium       ,BE,No,Brussel NM
+NB,Brussels NM ,BB,Belgium       ,BE,No,Brussel NM
+ZB,Belize      ,ZB,Belize        ,BZ,No,Belize
+BH,Bermuda SE  ,BH,Bermuda       ,BM,No,the Bermuda Stock Exchange
+B3,Blockmatch  ,B3,Blockmatch    ,MTF,No,Blockmatch
+B2,BMTF - ETF  ,B2,Bloomberg MTF ,MTF,No,Bloomberg MTF - RTS1
+B4,BMTF EU     ,B4,Bloomberg MTF ,MTF,No,Bloomberg MTF EU - RTS1
+VB,Bolivia     ,VB,Bolivia       ,BO,No,Bolivia
+BP,Bosnia      ,BP,Bosnia        ,BA,No,the Bosnia Exchange
+BG,Gaborone    ,BG,Botswana      ,BW,No,the Gabarone Stock Exchange
+VI,Br Virgin Is,VI,Brit Virgin Is,VG,No,British Virgin Islands
+BX,Brunei      ,BX,Brunei        ,BN,No,Brunei
+BC,BRVM Region ,BC,BRVM Regional , ,No,the BRVM Regional Exchange
+BU,Bulgaria SE ,BU,Bulgaria      ,BG,No,the Bulgaria Stock Exchange
+BY,Burgundy    ,BY,Burgundy      ,MTF,No,the Burgundy Stock Exchange
+KH,Cambodia    ,KH,Cambodia      ,KH,No,the Cambodia Stock Exchange
+DE,DoulaStkExch,DE,Cameroon      ,CM,No,the Doula Stock Exchange
+VR,Cape VerdeEx,VR,Cape Verde    ,CV,No,the Cape Verde Stock Exchange
+KY,CSX         ,KY,Cayman Islands,KY,No,the CSX
+E2,CBOE BXE EU ,E2,CBOE BXE EU   , ,No,CBOE BXE EU
+I2,Cboe DXE    ,I2,Cboe DXE      , ,No,Cboe DXE
+ZC,Centrl Af SE,ZC,Central Afr Rp,CF,No,the Central Africa Securities Exchange
+HE,Chi-East    ,HE,Chi-East      ,MTF,No,The Chi-East exchange
+IX,Cboe CXE    ,IX,Chi-X Europe  ,MTF,No,Cboe CXE Europe Equities
+CU,Cook Islands,CU,Cook Islands  ,CK,No,Cook Islands
+CR,Costa Rica  ,CR,Costa Rica    ,CR,No,Costa Rica Stock Exchange
+CY,Nicosia     ,CY,Cyprus        ,CY,No,the Nicosia Stock Exchange
+YC,Cyprus ECM  ,CY,Cyprus        ,CY,No,the Cyprus Emerging Companies Market
+SY,Damascus SE ,SY,Damascus SecEx, ,No,the Damascus Securities Exchange
+DC,Copenhagen  ,DC,Denmark       ,DK,No,the Copenhagen Stock Exchange
+DD,Dansk OTC   ,DC,Denmark       ,DK,No,Dansk OTC
+DF,FN Denmark  ,DC,Denmark       ,DK,No,First North Denmark
+EK,Estn Crbn SE,EK,Eastern Carrib, ,No,E. Caribbean Sec. Exch.
+DX,Turquoise De,DX,EDX London    , ,No,the EDX London Stock Exchange
+EL,El Salvador ,EL,El Salvador   ,SV,No,El Salvador
+BQ,Equiduct    ,BQ,Equiduct      ,MTF,No,the Equiduct Exchange
+ET,Tallinn     ,ET,Estonia       ,EE,No,the Tallinn Stock Exchange
+SD,EswatiniSE  ,SD,Eswatini      ,SZ,No,Eswatini Stock Exchange
+EM,Euronext NM ,EN,Euronext      , ,No,Euronext New Market
+EN,Euronext    ,EN,Euronext      , ,No,Euronext
+EE,Euronext ETF,EE,Euronext ETF  , ,No,Euronext ETF
+EF,Euronext ETF,EF,Euronext ETF  , ,No,Euronext ETF
+EU,Euro Comp   ,EU,European Comp , ,No,European Composite
+EZ,Eurolit     ,EZ,European Lit C, ,No,European Lit Composite
+EP,Eurolit Pri ,EP,European Lit P, ,No,European Lit Primaries Composite
+TE,EuroTLX     ,TE,EuroTLX       ,MTF,No,the EuroTLX Stock Exchange
+BT,Sarajevo    ,BT,Fed of Bos/Her,BA,No,the Sarajevo Exchange
+FS,SPSE        ,FS,Fiji          ,FJ,No,the South Pacific Stock Exchange
+FF,FN Finland  ,FH,Finland       ,FI,No,First North Finland
+FH,Helsinki    ,FH,Finland       ,FI,No,the Helsinki Stock Exchange
+FP,EN Paris    ,FP,France        ,FR,No,the Euronext Paris Stock Exchange
+NP,Paris NM    ,FP,France        ,FR,No,Paris NM
+ZG,Gabon       ,ZG,Gabon         ,GA,No,Gabon
+GX,Gambia StkEx,GX,Gambia        ,GM,No,the Gambia Stock Exchange
+GG,JSCGeorgiaSE,GG,Georgia       ,GE,No,the Joint Stock Company Georgian Stock Exchange
+NF,Frankfurt NM,NM,Germ NM       ,DE,No,the Frankfurt Neuer Market
+NM,German NM   ,NM,Germ NM       ,DE,No,the German NM
+NY,XETRA NM    ,NM,Germ NM       ,DE,No,the XETRA Newer Market
+GZ,Gettex      ,GZ,Gettex        , ,No,Gettex
+GN,Accra       ,GN,Ghana         ,GH,No,the Accra Stock Exchange
+TL,Gibraltar   ,TL,Gibraltar     ,GI,No,Gibraltar
+AA,Athens Alt  ,GA,Greece        ,GR,No,the Athens Alternative Market Exchange
+AP,Athens Repo ,GA,Greece        ,GR,No,Athens Repo
+GA,Athens      ,GA,Greece        ,GR,No,the Athens Stock Exchange
+GL,Guatemala   ,GL,Guatemala     ,GT,No,the Guatemala Stock Exchange
+GU,Guernsey    ,GU,Guernsey      ,GG,No,Guernsey
+G4,GXG Markets ,G4,GXG Markets   ,MTF,No,GXG Markets
+HM,HI-MTF      ,HM,HI-MTF        ,MTF,No,the HI-MTF Stock Exchange
+HO,Honduras    ,HO,Honduras      ,HN,No,the Honduras Stock Exchange
+HK,Hong Kong   ,HK,Hong Kong     ,HK,No,the Hong Kong Stock Exchange
+HB,Budapest    ,HB,Hungary       ,HU,No,the Budapest Stock Exchange
+IR,Reykjavik   ,IR,Iceland       ,IS,No,the Iceland Stock Exchange
+RF,FN Iceland  ,IR,Iceland       ,IS,No,First North Iceland
+IJ,Indonesia   ,IJ,Indonesia     ,ID,No,The Surabaya Stock Exchange
+IK,Indones Comp,IJ,Indonesia     ,ID,No,Indonesia Composite
+IY,Surabaya    ,IJ,Indonesia     ,ID,No,The Surabaya Stock Exchange
+IE,Tehran      ,IE,Iran          ,IR,No,the Tehran Stock Exchange
+IQ,Iraq SE     ,IQ,Iraq Stock Ex ,IQ,No,the Iraq Stock Exchange
+ID,EN Dublin   ,ID,Ireland       ,IE,No,the Dublin Stock Exchange
+IO,Isle of Man ,IO,Isle of Man   ,IM,No,Isle of Man
+IT,Tel Aviv    ,IT,Israel        ,IL,No,the Tel Aviv Stock Exchange
+I9,LSE Milan   ,IM,Italy         ,IT,No,the LSE Milan Exchange
+IC,Mil Comp Day,IM,Italy         ,IT,No,Milan Complete Day
+IF,Mil Aftr Hrs,IM,Italy         ,IT,No,Milan After-hours
+IM,BrsaItaliana,IM,Italy         ,IT,No,Milan NM
+NI,Milan NM    ,IM,Italy         ,IT,No,Milan NM
+PO,ITG Posit   ,PO,ITG Posit     , ,No,ITG Posit Trade Exchange
+IA,Abidjan     ,IA,Ivory Coast   ,CI,No,the Abidjan Stock Exchange
+JA,Kingston    ,JA,Jamaica       ,JM,No,the Kingston Stock Exchange
+JY,Jersey      ,JY,Jersey        ,JE,No,Jersey
+JR,Amman       ,JR,Jordan        ,JO,No,the Amman Stock Exchange
+AK,Kabul Intl  ,AK,Kabul Intl    ,AF,No,the Kabul International Stock Exchange
+KX,AIX         ,KZ,Kazakhstan    ,KZ,No,Astana International Exchange
+KZ,KazkhstnStEX,KZ,Kazakhstan    ,KZ,No,Kazakhstan Stock Exchange Incorporated
+KN,Nairobi SE  ,KN,Kenya         ,KE,No,the Nairobi Securties Exchange Limited
+KO,Kosovo      ,KO,Kosovo        , ,No,the Kosovo Stock Exchange
+KF,K-OTC       ,KF,K-OTC         ,KR,No,K-OTC
+KK,Kuwait      ,KK,Kuwait        ,KW,No,the Kuwait Stock Exchange
+KB,Kyrgyzstan  ,KB,Kyrgyzstan    ,KG,No,the Kyrgyzstan Stock Exchange
+LS,Laos SE     ,LS,Laos Pep Dm Rp,LA,No,Laos Stock Exchange
+LB,Beirut      ,LB,Lebanon       ,LB,No,the Beirut Stock Exchange
+LY,LibyanStExc ,LY,Libn Arb Jmhra,LY,No,the Libyan Stock Exchange
+LE,Liechtenstei,LE,Liechtenstein ,LI,No,Liechenstein
+L3,Liquidnet   ,L3,Liquidnet     , ,No,Liquid
+L1,Liquidnet IR,L1,Liquidnet IR  , ,No,Liquidnet IR
+LH,Vilnius SE  ,LH,Lithuania     ,LT,No,the Vilnius Stock Exchange
+LI,London Intl ,LI,London Intl   ,GB,No,the LSE European Quotes Service Stock Exchange
+LO,LSE EuropeQS,LI,London Intl   ,GB,No,the LSE European Quotes Service Stock Exchange
+LX,Luxembourg  ,LX,Luxembourg    ,LU,No,the Luxembourg Stock Exchange
+MA,Macau       ,MA,Macau         ,MO,No,Macau
+MS,Macedonia   ,MS,Macedonia     ,MK,No,the Macedonian Stock Exchange AD
+MD,Madeira     ,MD,Madeira       ,PT,No,Madeira
+MW,Malawi SE   ,MW,Malawi        ,MW,No,the Malawi Stock Exchange
+MK,Bursa Malays,MK,Malaysia      ,MY,No,Bursa Malaysia
+MX,Maldives S E,MX,Maldives      ,MV,No,Maldives Stock Exchange
+MV,Valletta    ,MV,Malta         ,MT,No,the Valletta Stock Exchange
+MI,Marshall Isd,MI,Marshall Islds,MH,No,Marshall Islands
+MP,SEM         ,MP,Mauritius     ,MU,No,the SEM
+MQ,MESDAQ      ,MQ,MESDAQ        , ,No,the MESDAQ Stock Exchange
+MB,Moldova     ,MB,Moldova       ,MD,No,the Moldova Stock Exchange
+MN,Monaco      ,MN,Monaco        ,MC,No,Monaco
+MO,Mongolia    ,MO,Mongolia      ,MN,No,Mongolia
+ME,Montenegro  ,ME,Montenegro    ,ME,No,the Montenegro Stock Exchange
+MC,Casablanca  ,MC,Morocco       ,MA,No,the Casablanca Stock Exchange
+MZ,MozambiqStEx,MZ,Mozambique    ,MZ,No,the Mozambique Stock Exchange
+M0,MS MTF      ,M0,MS MTF        ,MTF,No,Morgan Stanley MTF
+MY,Yangon Exch ,MY,Myanmar       ,MM,No,Yangon Stock Exchange
+C1,Nth SSE-SEHK,C1,N SSE-SEHK Con,HK,No,Northbound SSE-SEHK Stock Connect
+NW,Windhoek    ,NW,Namibia       ,NA,No,the Windhoek Stock Exchange
+DU,Nasdaq Dubai,DU,Nasdaq Dubai  ,AE,No,the Nasdaq Dubai Exchange
+ES,NASDAQ Europ,ES,NASDAQ Europe , ,No,the Nasdaq Europe Stock Market
+NK,Nepal Stock ,NK,Nepal         ,NP,No,Nepal Stock Exchange
+NT,Neth Antille,NT,Neth Antilles ,AN,No,Netherlands Antilles
+NA,EN Amsterdam,NA,Netherlands   ,NL,No,the Euronext Amsterdam Stock Exchange
+NE,EN AmstDer  ,NA,Netherlands   ,NL,No,the Euronext Amsterdam Derivatives Stock Exchange
+NN,Amsterdam NM,NA,Netherlands   ,NL,No,Amsterdam NM
+NQ,NSDQ OMX Eur,NQ,NEURO         , ,No,the NASDAQ OMX Europe Exchange
+NX,St Kts & Nvs,NX,Nevis         ,KN,No,St. Kitts & Nevis
+NV,OTC  New Zld,NZ,New Zealand   ,NZ,No,New Zealand OTC
+NZ,NZX         ,NZ,New Zealand   ,NZ,No,the New Zealand Stock Exchange
+EX,NEWEX       ,EX,NEWEX         , ,No,NEWEX
+NC,Nicaragua   ,NC,Nicaragua     ,NI,No,Nicaragua
+NJ,Nigeria NOTC,NL,Nigeria       ,NG,No,Nigeria NASD OTC MARKET
+NL,Nigerian Exc,NL,Nigeria       ,NG,No,Nigerian Exc Ltd (NGX)
+C2,Nth SZ-SEHK ,C2,No SZ-SEHK Con,HK,No,Northbound SZ-SEHK Stock Connect
+NO,Oslo        ,NO,Norway        ,NO,No,the Oslo Stock Exchange
+NS,Norway OTC  ,NO,Norway        ,NO,No,Norwegian OTC
+NR,NYSE ARCA Eu,NR,NYSE ARCA Eur ,MTF,No,the NYSE ARCA Europe Exchange
+LD,EN London   ,LD,NYSE EU London, ,No,Euronext London
+OF,OFEX London ,OF,OFEX London   , ,No,OFEX London
+OM,Muscat      ,OM,Oman          ,OM,No,the Muscat Stock Exchange
+PS,Palestine   ,PS,Palestine     ,PS,No,Palestine Stock Exchange
+PP,Latinex     ,PP,Panama        ,PA,No,Latin American Stock Exchange
+PB,PNGX Markets,PB,Papua N.Guinea,PG,No,PNGX Markets Limited
+PN,Asuncion    ,PN,Paraguay      ,PY,No,the Asuncion Stock Exchange
+PE,BVL         ,PE,Peru          ,PE,No,Bolsa de Valores de Lima S.A.
+PX,PEX         ,PX,PEX           ,MTF,No,the PEX Stock Exchange
+PM,Philippines ,PM,Philippines   ,PH,No,the Philippine Stock Exchange
+PG,PLUS Europe ,PG,PLUS Europe   , ,No,the PLUS Europe Exchange
+PC,Warsaw Cont ,PW,Poland        ,PL,No,the Warsaw Continuous Market
+PD,Poland OTC  ,PW,Poland        ,PL,No,MTS Poland OTC
+PT,Warsaw Auct ,PW,Poland        ,PL,No,the Warsaw Auction Market
+PW,Warsaw      ,PW,Poland        ,PL,No,the Warsaw Auction Market
+PL,EN Lisbon   ,PL,Portugal      ,PT,No,the Euronext Lisbon Stock Exchange
+P2,Posit       ,P2,Posit         , ,No,Posit
+QD,Qatar       ,QD,Qatar         ,QA,No,Qatar
+QM,Quote MTF   ,QM,Quote MTF     ,MTF,No,the Quote MTF Stock Exchange
+QT,Quotrix Exch,QT,Quotrix Exchg , ,No,Quotrix Exchange
+BK,Banja Luka  ,BK,Rpblika Srpska,BA,No,the Banja Luka Exchange
+RW,Rwanda      ,RW,Rwanda        ,RW,No,Rwanda Stock Exchange
+H1,Sth SSE-SEHK,H1,S SSE-SEHK Con,HK,No,Southbound SSE-SEHK Stock Connect
+AB,Saudi Arabia,AB,Saudi Arabia  ,SA,No,Saudi Arabia
+ZS,Senegal     ,ZS,Senegal       ,SN,No,Senegal
+SG,Belgrade SE ,SG,Serbia        ,RS,No,Belgrade Stock Exchange
+SZ,Seychelles  ,SZ,Seychelles    ,SC,No,Seychelles Real Time Feed
+SH,SharesPost  ,SH,SharesPost Mkt, ,No,SharesPost Market
+SU,Sierra Leone,SU,Sierra Leone  ,SL,No,Sierra Leone
+S1,SIGMA X MTF ,S1,SIGMA X MTF   ,MTF,No,SIGMA X MTF
+S4,SIGMA-X EU  ,S4,SIGMA-X EU MTF,MTF,No,SIGMA-X EU MTF
+SP,Singapore   ,SP,Singapore     ,SG,No,the Stock Exchange of Singapore
+SK,Bratislava  ,SK,Slovakia      ,SK,No,the Bratislava Stock Exchange
+SV,Ljubljana   ,SV,Slovenia      ,SI,No,the Ljubljana Stock Exchange
+H2,Sth SZ-SEHK ,H2,So SZ-SEHK Con,HK,No,Southbound SZ-SEHK Stock Connect
+AJ,A2X         ,SJ,South Africa  ,ZA,No,A2X Stock Exchange
+SJ,Johannesburg,SJ,South Africa  ,ZA,No,A2X Stock Exchange
+SL,Colombo     ,SL,Sri Lanka     ,LK,No,the Colombo Stock Exchange
+S3,Sudan       ,S3,Sudan         ,SD,No,Sudan
+KA,Spotlight   ,SS,Sweden        ,SE,No,Spotlight Stock Market
+NG,Nordic GM   ,SS,Sweden        ,SE,No,Nordic Growth Market
+SF,FN Stockholm,SS,Sweden        ,SE,No,First North Stockholm
+SS,Stockholm   ,SS,Sweden        ,SE,No,Nordic Growth Market
+TT,Taiwan      ,TT,Taiwan        ,TW,No,Taiwan Exchange
+TT,Taipei      ,TT,Taiwan        ,TW,No,Taipei Exchange
+TD,Tajikistan  ,TD,Tajikistan    ,TJ,No,Tajikistan
+TZ,Dar E Slm SE,TZ,Tanzania      ,TZ,No,Dar Es Salaam Stock Exchange
+TB,Bangkok     ,TB,Thailand      ,TH,No,the Bangkok Stock Exchange
+MT,TOM MTF     ,MT,TOM MTF       ,MTF,No,TOM MTF
+Z2,TRACE       ,Z2,TRACE         , ,No,TRACE Exchange
+TH,Tradegate   ,TH,Tradegate     ,MTF,No,Tradegate
+X9,TW APA EU   ,X9,Tradeweb APA  , ,No,Tradeweb APA
+T2,TradeWeb MTF,T2,TradeWeb MTF  ,MTF,No,TradeWeb MTF
+WT,TW MTF EU   ,WT,Tradeweb MTF  ,MTF,No,Tradeweb MTF
+TP,Port Spain  ,TP,Trinidad      ,TT,No,the Trinidad and Tobago Stock Exchange
+TU,Tunis       ,TU,Tunisia       ,TN,No,the Tunis Stock Exchange
+T0,TurkDEX     ,T0,TurkDEX       , ,No,the TurkDEX Stock Exchange
+TF,Istn 1st Ses,TI,Turkey        ,TR,No,Istanbul 1st Session
+TI,Istanbul    ,TI,Turkey        ,TR,No,Istanbul 1st Session
+TS,Istn 2nd Ses,TI,Turkey        ,TR,No,Istanbul 2nd Session
+TM,Turkmenistan,TM,Turkmenistan  ,TM,No,Turkmenistan
+TC,Turks& Caico,TC,Turks & Caico ,TC,No,Turks & Caico Islands
+T1,Turquoise Eu,T1,Turquoise EU  , ,No,Turquoise Europe
+TQ,Turquoise   ,TQ,Turquoise Mkt ,MTF,No,the Turquoise Market Exchange
+UG,Uganda      ,UG,Uganda        ,UG,No,Uganda
+OU,PFTSOrderdrv,UZ,Ukraine       ,UA,No,the PFTS Order-driven Market Exchange
+QU,PFTSQuotedrv,UZ,Ukraine       ,UA,No,the PFTS Quote-driven Market Exchange
+UK,RTS Ukraine ,UZ,Ukraine       ,UA,No,the RTS Ukraine Stock Exchange
+UZ,PFTS        ,UZ,Ukraine       ,UA,No,the PFTS Stock Exchange
+LC,Composite   ,LN,United Kingdom,GB,No,the London composite
+LN,London      ,LN,United Kingdom,GB,No,the Tradepoint Investment Exchange
+LT,Tradepoint  ,LN,United Kingdom,GB,No,the Tradepoint Investment Exchange
+UY,Montevideo  ,UY,Uruguay       ,UY,No,the Montevideo Stock Exchange
+ZU,Uzbekistan  ,ZU,Uzbekistan    ,UZ,No,the Uzbekistan Stock Exchange
+GK,XetraIntlMkt,GK,Xetra Intl Mkt,MTF,No,the Xetra International Market Stock Exchange
+YS,Yemen       ,YS,Yemen         ,YE,No,Yemen
+ZL,Lusaka      ,ZL,Zambia        ,ZM,No,the Lusaka Stock Exchange
+ZH,Harare      ,ZH,Zimbabwe      ,ZW,No,the Harare Stock Exchange
