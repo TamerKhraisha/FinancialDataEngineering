@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  jupyterlab:
+    image: jupyter/base-notebook:latest
+    working_dir: /project
+    command: ["sh", "-c", "python3 -m pip install pandas && start-notebook.sh --NotebookApp.token=''"]
+    ports:
+      - "8888:8888"
+    env_file:
+      - .env
+

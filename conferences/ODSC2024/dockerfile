@@ -1,0 +1,20 @@
+# Use the base image from the original docker-compose file
+FROM jupyter/base-notebook:latest
+
+# Set the working directory inside the container
+WORKDIR /project
+
+# Install additional packages
+RUN python3 -m pip install pandas
+
+# Copy the reference_data.py file into the container
+# COPY /scripts/reference_data.ipynb .
+
+# Expose the port that the Jupyter Notebook will run on
+EXPOSE 8888
+
+# Set environment variables
+ENV PERMID_API_KEY=Ai5UeQfwgqX1xbBH8DtFyLwwkgS3hp6c
+
+# Command to run Jupyter Notebook without a token
+CMD ["sh", "-c", "start-notebook.sh --NotebookApp.token=''"]
