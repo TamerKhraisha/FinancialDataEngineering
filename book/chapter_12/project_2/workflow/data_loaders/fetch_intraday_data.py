@@ -16,7 +16,7 @@ def load_data_from_api(*args, **kwargs):
     """
     Loads Intraday Time Series data
     """
-    api_key = os.environ['ALPHAVINTAGE_API_KEY']
+    api_key = os.environ['ALPHAVANTAGE_API_KEY']
 
     output_df = pd.DataFrame()
 
