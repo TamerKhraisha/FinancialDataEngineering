@@ -18,9 +18,22 @@ The only prerequisite for this project is to obtain a permid API token. To do so
 ## Launch the container
 
 1. Open a terminal and navigate to the /path/to/repo/conferences/ODSC2024
+
+
 2. Build the image by running the following command
 
    `docker build -t reference-data .`
+
+
 3. Start the container with the command
 
    `docker run -p 8888:8888 reference-data`
+
+
+4. Navigate to `http://127.0.0.1:8888/lab`
+
+
+If you want to mount a volume to Docker container with the notebook, you can run the following command at step 3
+
+`docker run -p 8888:8888 -v ./scripts:/project/scripts  reference-data`
+
