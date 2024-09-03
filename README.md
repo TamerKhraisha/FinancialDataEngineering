@@ -1,7 +1,5 @@
 # Financial Data Engineering (O'Reilly)
 
----
-
 <img src="book/images/book_cover.jpg" width="500">
 
 This repository serves as a comprehensive resource where you'll find everything related to the book, including:
