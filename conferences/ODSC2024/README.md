@@ -27,13 +27,8 @@ The only prerequisite for this project is to obtain a permid API token. To do so
 
 3. Start the container with the command
 
-   `docker run -p 8888:8888 reference-data`
+   `docker run -p 8888:8888 -v ./scripts:/project/scripts  reference-data`
 
 
 4. Navigate to `http://127.0.0.1:8888/lab`
-
-
-If you want to mount a volume to Docker container with the notebook, you can run the following command at step 3
-
-`docker run -p 8888:8888 -v ./scripts:/project/scripts  reference-data`
 
