@@ -1,5 +1,6 @@
 # Financial Data Engineering (O'Reilly)
 
+[30-days free access to O'Reilly](https://learning.oreilly.com/get-learning/?code=FDE2024)
 <img src="book/images/book_cover.jpg" width="500">
 
 This repository serves as a comprehensive resource where you'll find everything related to the book, including:
