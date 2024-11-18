@@ -10,8 +10,5 @@ RUN python3 -m pip install pandas
 # Expose the port that the Jupyter Notebook will run on
 EXPOSE 8888
 
-# Set environment variables
-ENV PERMID_API_KEY=YOUR_API_KEY
-
 # Command to run Jupyter Notebook without a token
 CMD ["sh", "-c", "start-notebook.sh --NotebookApp.token=''"]
